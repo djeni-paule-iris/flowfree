@@ -3,7 +3,7 @@
 // This means users always get fresh data when online,
 // but the app still loads if they lose connection
 
-const CACHE_NAME = 'flowfree-v1';
+const CACHE_NAME = 'apinflow-v1';
 const STATIC_ASSETS = ['/', '/index.html', '/manifest.json'];
 
 // Install: cache the core assets
