@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import Apinflow from './App.jsx'
 
 // Register the service worker so the app works offline (PWA)
 // This runs after the page loads so it doesn't slow down the first paint
@@ -14,6 +14,6 @@ if ('serviceWorker' in navigator) {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+      <Apinflow />
   </React.StrictMode>
 )
